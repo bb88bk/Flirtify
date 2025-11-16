@@ -5,7 +5,7 @@ import * as htmlToImage from 'html-to-image';
 
 // 整页背景图（替换成你的图床地址）
 const BACKGROUND_URL =
-  'https://i.mji.rip/2025/11/15/f9ca213aac0f17a2033118411d8f10a8.png';
+  'https://i.mji.rip/2025/11/16/c2b0e492c688c1c52abef2fe763fe2db.png';
 
 function NoticePage() {
   // 截图逻辑：使用 html-to-image
@@ -116,4 +116,5 @@ function NoticePage() {
 }
 
 export default NoticePage;
+
 
