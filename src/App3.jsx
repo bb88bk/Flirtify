@@ -58,7 +58,7 @@ function NoticePage() {
         <div
           className="
             absolute 
-            left-[50px] top-[320px] -translate-x-max
+            left-[50px] top-[235px] -translate-x-max
             px-10 py-6
             text-[15px] leading-relaxed
             max-w-[700px]
@@ -67,6 +67,14 @@ function NoticePage() {
           contentEditable
           suppressContentEditableWarning
         >
+          <div
+            className="mb-5 text-center text-[#92226B] font-bold text-[25px] leading-snug"
+            style={{ fontFamily: 'Times New Roman' }}
+          >
+            <p>Flirtyfy Handling of Member Activity Issues</p>
+            <p>Flirtyfy Dating Club</p>
+          </div>
+
           <p className="mb-3">
             Dear Flirtyfy Member <strong>[TT951360]</strong>, Hello!
           </p>
@@ -108,3 +116,4 @@ function NoticePage() {
 }
 
 export default NoticePage;
+
