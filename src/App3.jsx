@@ -124,7 +124,7 @@ function NoticePage() {
           {/* 🕒 文案块内右下角实时时间（不参与编辑） */}
           <div
             contentEditable={false}
-            className="absolute -bottom-20 right-[65px] text-[12px] tracking-wide text-[#374151] opacity-80 select-none"
+            className="absolute -bottom-[80px] right-[65px] text-[12px] tracking-wide text-[#374151] opacity-80 select-none"
           >
             {now.toLocaleString('en-US', {
               year: 'numeric',
@@ -143,6 +143,7 @@ function NoticePage() {
 }
 
 export default NoticePage;
+
 
 
 
